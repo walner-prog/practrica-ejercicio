@@ -29,5 +29,5 @@ Este proyecto contiene ejercicios para practicar los comandos básicos de Git y 
 
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia sobre este proyecto, no dudes en ponerte en contacto conmigo en(ca140611@gmail.com).
+Si tienes alguna pregunta o sugerencia sobre este proyecto, no dudes en ponerte en contacto conmigo en ca140611@gmail.com.
 
