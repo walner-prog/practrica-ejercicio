@@ -1,0 +1,142 @@
+¡Claro! Aquí tienes un ejemplo de ejercicio que puedes seguir para practicar con los comandos Git utilizando un archivo HTML sencillo:
+
+Inicializar un repositorio Git:
+
+bash
+Copiar código
+git init
+Crear un archivo HTML (por ejemplo, index.html) con el siguiente contenido:
+
+html
+Copiar código
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Exercise</title>
+</head>
+<body>
+    <h1>Hello, world!</h1>
+    <p>This is a simple HTML file.</p>
+</body>
+</html>
+Agregar el archivo al área de preparación:
+
+bash
+Copiar código
+git add index.html
+Realizar un commit con un mensaje descriptivo:
+
+bash
+Copiar código
+git commit -m "Add initial HTML file"
+Crear una nueva rama:
+
+bash
+Copiar código
+git branch feature/add-style
+Cambiar a la nueva rama:
+
+bash
+Copiar código
+git checkout feature/add-style
+Modificar el archivo HTML para agregar un poco de estilo:
+
+html
+Copiar código
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Exercise</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, world!</h1>
+    <p>This is a simple HTML file with some styling.</p>
+</body>
+</html>
+Agregar los cambios y realizar un nuevo commit:
+
+bash
+Copiar código
+git add index.html
+git commit -m "Add styling to HTML file"
+Cambiar de nuevo a la rama principal (master/main):
+
+bash
+Copiar código
+git checkout master
+Agregar un enlace al archivo HTML (por ejemplo, about.html):
+
+html
+Copiar código
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Git Exercise</title>
+   </head>
+   <body>
+       <h1>Hello, world!</h1>
+       <p>This is a simple HTML file.</p>
+       <a href="about.html">About</a>
+   </body>
+   </html>
+    ```
+Agregar los cambios y realizar un nuevo commit:
+bash
+Copiar código
+git add index.html
+git commit -m "Add link to About page"
+
+markdown
+Copiar código
+
+12. **Crear una nueva rama para trabajar en una nueva característica**:
+ ```bash
+git branch feature/about-page
+Cambiar a la nueva rama:
+bash
+Copiar código
+git checkout feature/about-page
+
+php
+Copiar código
+
+14. **Crear un nuevo archivo HTML para la página "Acerca de"** (por ejemplo, `about.html`):
+ ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+</head>
+<body>
+    <h1>About Us</h1>
+    <p>This is the About page.</p>
+</body>
+</html>
+ ```
+
+15. **Agregar el nuevo archivo y realizar un nuevo commit**:
+ ```bash
+git add about.html
+git commit -m "Add About page"
+Este ejercicio te permite practicar los comandos básicos de Git mientras trabajas en un proyecto HTML simple y aprendes a crear ramas, realizar commits y fusionar cambios.
