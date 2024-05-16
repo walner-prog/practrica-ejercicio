@@ -27,11 +27,7 @@ Este proyecto contiene ejercicios para practicar los comandos básicos de Git y 
 5. Sube tus cambios a tu repositorio en GitHub: `git push origin feature/nueva-contribucion`.
 6. Abre una solicitud de extracción (pull request) hacia la rama principal del repositorio original.
 
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
-
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia sobre este proyecto, no dudes en ponerte en contacto conmigo en [tu-email@example.com](mailto:tu-email@example.com).
+Si tienes alguna pregunta o sugerencia sobre este proyecto, no dudes en ponerte en contacto conmigo en(ca140611@gmail.com).
 
